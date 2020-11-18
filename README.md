@@ -38,7 +38,7 @@ input.addEventListener("change", function(e) {
             console.log(bytesUploaded, bytesTotal, percentage + "%")
         },
         onSuccess: function() {
-            console.log("Download %s from %s", upload.file.name, upload.url)
+            console.log("Upload %s to %s", upload.file.name, upload.url)
         }
     })
 
